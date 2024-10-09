@@ -19,7 +19,7 @@ RUN git clone https://github.com/SigNoz/signoz.git .
 WORKDIR /app/signoz/deploy
 
 # Run the install script
-RUN chmod +x install.sh && ./install.sh
+RUN ./install.sh
 
 # Expose the necessary ports
 EXPOSE 4317 4318 3000 3001
