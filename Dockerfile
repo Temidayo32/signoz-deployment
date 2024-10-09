@@ -1,5 +1,5 @@
 # Use an official lightweight base image
-FROM ubuntu:20.04
+FROM ubuntu:22.04
 
 # Install necessary packages
 RUN apt-get update && \
