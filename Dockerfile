@@ -13,7 +13,7 @@ RUN apt-get update && \
 WORKDIR /app
 
 # Clone the SigNoz repository
-RUN git clone -b main https://github.com/SigNoz/signoz.git .
+RUN git clone https://github.com/SigNoz/signoz.git .
 
 # Change to the deploy directory
 WORKDIR /app/signoz/deploy
